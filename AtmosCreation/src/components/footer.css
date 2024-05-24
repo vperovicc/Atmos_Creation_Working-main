@@ -1,0 +1,125 @@
+.footer {
+    margin-top: 50px;
+    background-color: #0B0B0B; /* Set the background color to a dark shade */
+    padding: 20px 0; /* Add some padding for better spacing */
+  }
+  
+  .rights {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px; /* Slightly reduce font size for better proportion */
+    text-align: center; /* Center-align the text */
+    margin-top: 20px; /* Adjust the top margin */
+  }
+  
+  .infos {
+    display: flex;
+    align-items: center;
+    max-width: 1300px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .logo1 {
+    width: 60px; /* Slightly reduce logo size */
+    height: auto;
+    padding: 10px;
+    
+  }
+  
+  .email {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 16px; /* Slightly reduce font size for better proportion */
+    margin-right: 20px;
+  }
+  
+  .line {
+    width: 90%; /* Reduce the line width for better proportion */
+    background-color: #fff;
+    height: 2px; /* Reduce the line height for a sleeker look */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .social {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social img {
+    height: 30px; /* Reduce social media icon size */
+    width: auto;
+    filter: invert(1);
+    margin-left: 15px; /* Adjust the left margin */
+  }
+
+  @media (min-width: 2559px) {
+    .infos {
+      display: flex;
+      align-items: center;
+      max-width: 2300px;
+      justify-content: space-between;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+    }
+    
+    .rights {
+      color: #fff;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      font-size: 18px; /* Slightly reduce font size for better proportion */
+      text-align: center; /* Center-align the text */
+      margin-top: 20px; /* Adjust the top margin */
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .footer {
+      margin-top: 30px;
+    }
+  
+    .rights {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 15px;
+    }
+  
+    .infos {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo1 {
+      width: 50px;
+      margin-right: 0;
+      margin-bottom: -20px;
+    }
+  
+    .email {
+      font-size: 14px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .line {
+      width: 70%;
+      height: 2px;
+    }
+  
+    .social {
+      margin-top: 15px;
+      margin-bottom: 10px;
+    }
+  
+    .social img {
+      height: 20px;
+      margin-left: 10px;
+    }
+  }

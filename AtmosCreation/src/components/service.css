@@ -1,0 +1,241 @@
+.all{
+    width: 100%;
+}
+
+.tit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.titText{
+    font-family: "Montserrat",sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: 8px;
+    text-wrap:nowrap;
+    color: #ECEAD4
+}
+
+.contain{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    font-family: "Montserrat",sans-serif;
+}
+
+.one{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 250px;
+}
+
+.one h{
+    width: 325px;
+    font-family: "Anton",sans-serif;
+    font-size: 24px;
+}
+
+.circle{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    box-shadow: 0 0 30px white;
+}
+
+.separateCreative img{
+    width: 100px;
+    height: 100px;
+}
+
+.separateCreative p{
+    width: 318px;
+}
+
+.movingLine{
+    width: 7px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    top: 390px;
+    left: 50%;
+    position: absolute;
+}
+
+@media (max-width:1215px)
+{
+    .one{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 850px;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 250px;
+    }
+}
+
+@media (max-width: 870px)
+{
+    .one{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 750px;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 250px;
+    }
+}
+
+@media (max-width: 770px)
+{
+    .contain{
+        margin-top: -100px;        
+    }
+
+    .one{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 150px;
+        flex-direction: column;
+    }
+
+    .movingLine{
+        visibility: collapse;
+    }
+
+    .circle{
+        visibility: collapse;
+    }
+
+    .one{
+        flex-direction: column;
+    }
+
+    .separateCreative{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .separateCreative p{
+        margin-left: 50px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 515px)
+{
+    .contain{
+        margin-top: -100px;        
+    }
+
+    .one{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 150px;
+        flex-direction: column;
+    }
+
+    .movingLine{
+        visibility: collapse;
+    }
+
+    .circle{
+        visibility: collapse;
+    }
+
+    .one{
+        flex-direction: column;
+    }
+
+    .separateCreative{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .separateCreative p{
+        margin-left: 50px;
+        font-size: 10px;
+        width: 200px;
+    }
+
+    .separateCreative img{
+        width: 60px;
+        height: auto;
+    }
+}
+
+@media (max-width: 410px)
+{
+    .contain{
+        margin-top: -100px;        
+    }
+    
+    .titText{
+        font-size: 26px;
+    }
+
+    .one h{
+        font-size: 20px;
+    }
+
+    .one{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 150px;
+        flex-direction: column;
+    }
+
+    .movingLine{
+        visibility: collapse;
+    }
+
+    .circle{
+        visibility: collapse;
+    }
+
+    .one{
+        flex-direction: column;
+    }
+
+    .separateCreative{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .separateCreative p{
+        margin-left: 50px;
+        font-size: 10px;
+        width: 170px;
+    }
+
+    .separateCreative img{
+        width: 60px;
+        height: auto;
+    }
+}
